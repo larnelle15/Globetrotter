@@ -3,7 +3,7 @@ Creating a personal travel guide website about Uganda - the pearl of Africa.
 
 ## Unit 1 Assignment: Globetrotter
 
-Submitted by: **NAME**
+Submitted by: **LARNELLE ANKUNDA**
 
 Estimated time spent: **#** hours spent in total
 
