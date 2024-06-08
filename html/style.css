@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.catamaran {
+  font-family: "Catamaran", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+    font-family: 'Catamaran', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    position: sticky;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+section p {
+    line-height: 1.8;
+    color: #666;
+    text-align: center;
+}
+
+.attraction-card,
+.attraction-card2,
+.attraction-card3,
+.guide-entry {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.attraction-card h3,
+.attraction-card2 h3,
+.attraction-card3 h3,
+.guide-entry h3 {
+    margin-bottom: 10px;
+    font-size: 1.8em;
+    color: #333;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.photo-gallery figure {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    flex: 1 1 200px;
+}
+
+.photo-gallery img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.photo-gallery figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+}
+
+.map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100%; 
+}
+
+.map-container h3 {
+    margin-bottom: 10px;
+    font-size: 1.8em;
+    color: #333;
+}
+
+.map-container iframe {
+    border: 0;
+    width: 100%;
+    max-width: 800px; 
+    height: 450px; 
+    margin-bottom: 20px;
+}
+
+.map-container p {
+    line-height: 1.8;
+    color: #666;
+    text-align: justify; 
+    padding: 0 20px; 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media screen and (min-width: 1080px) and (max-width: 1920px) {
+    .nav a{
+        color: #f9f9f9
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 800px) {
+    .nav a{
+        color: orange
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .nav a{
+        color: rgb(226, 98, 43)
+    }
+}
+
+@media screen and (min-width: 414px) and (max-width: 896px) {
+    .nav a{
+        color: orange
+    }
+}
