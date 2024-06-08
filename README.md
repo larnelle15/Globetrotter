@@ -5,7 +5,7 @@ Creating a personal travel guide website about Uganda - the pearl of Africa.
 
 Submitted by: **LARNELLE ANKUNDA**
 
-Estimated time spent: **#** hours spent in total
+Estimated time spent: 20 hours spent in total
 
 Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 
