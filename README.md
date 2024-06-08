@@ -67,8 +67,7 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 `TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video actually renders and is playable when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
 
 `ADD_EMBEDDED_CODE_HERE`
-https://www.loom.com/embed/a048d0b8de0e42f38bbc0336c43241ad?sid=e927cc92-d0b1-4b83-8690-8003df81a6e1
-
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/a048d0b8de0e42f38bbc0336c43241ad?sid=3bc63e51-2d18-4e28-ae52-31015acf089e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### Reflection
 
