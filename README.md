@@ -47,12 +47,12 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 - [x] **Enhanced Layouts**
   - Utilize CSS Grid on one or more pages for a unique layout.
 
-- [x] **Interactive Features**
+- [] **Interactive Features**
   - Implement a dropdown menu in the navigation bar for additional categories or sub-pages.
 
 - [x] **Deployment**: Deploy your website so it's accessible to the public outside of your local machine. 
 
-- [x] **Interactive Navigation**: Enhance the usability of your navigation bar.
+- [] **Interactive Navigation**: Enhance the usability of your navigation bar.
   - Implement a dropdown menu in the navigation bar to organize additional categories or sub-pages.
 
 - [x] **User Engagement**: Encourage interaction and engagement from your site visitors.
@@ -87,4 +87,4 @@ Add your response here
 - Add any links to open-source libraries used in your project.
 
 ### Shout out
-Shout out Kenneth and Keith!
+Shout out Ahmed and Devarsh!
